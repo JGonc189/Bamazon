@@ -82,7 +82,7 @@ const customerRequest = () => {
 				name:'id',
 				message:'What is the ID of the product you would like to purchase?',
 				validate: (value) => {
-					let valid = !isNan(parseFloat(value));
+					let valid = !isNaN(parseFloat(value));
 					return valid || 'Please enter a number!';
 				}
 			},
@@ -91,7 +91,7 @@ const customerRequest = () => {
 				name:'quantity',
 				message:'How many would you like to buy?',
 				validate: (value) => {
-					let valid = !isNan(parseFloat(value));
+					let valid = !isNaN(parseFloat(value));
 					return valid || 'Please enter a number!';
 				}
 			}
