@@ -6,9 +6,9 @@ This will give him/her the option to purchase from the amazing Bamazon Store!  A
 This app will have the option to view products for sale, view products that are low in stock quantity, add new products, and add stock to an existing product.
 
 ## See how it works!
-1:  Clone repository
-2:  Perform npm install
-3:  run either node bamazonCustomer.js || node bamazonManager.js
+*1:  Clone repository
+*2:  Perform npm install
+*3:  run either node bamazonCustomer.js || node bamazonManager.js
 
 ## Packages Used
 * [cli-table](https://www.npmjs.com/package/cli-table)
